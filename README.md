@@ -176,6 +176,12 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 - `yarn dev:frontend` To boot the frontend locally (from root of repo).
 - `yarn dev:collector` To then run the document collector (from root of repo).
 
+### Recommended developer checks
+
+- `yarn lint` Runs linting for the server, frontend, and collector packages.
+- `yarn test` Executes the Jest test suite.
+- `yarn verify:translations` Ensures every locale file stays in sync with `en` keys.
+
 [Learn about documents](./server/storage/documents/DOCUMENTS.md)
 
 [Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)
